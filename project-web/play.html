@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play Game</title>
+  <link rel="stylesheet" href="./assets/app.css">
+</head>
+<body data-page="play">
+  <header class="site-header">
+    <a class="back-link" href="./index.html">Back to List</a>
+    <h1 id="gameTitle">Loading game...</h1>
+    <p id="gameDesc" class="muted"></p>
+  </header>
+
+  <main class="container">
+    <section class="play-wrap">
+      <canvas id="gameCanvas" width="420" height="640"></canvas>
+      <div class="play-meta">
+        <p id="controlsLabel"><strong>Controls:</strong> Left/Right move lane, Space action.</p>
+        <p id="scoreLabel">Score: 0</p>
+        <p id="stateLabel" class="muted">Ready</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./assets/play.js"></script>
+</body>
+</html>

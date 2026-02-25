@@ -1,0 +1,126 @@
+﻿{
+    "generatedAt":  "2026-02-26T07:13:37+09:00",
+    "count":  20,
+    "games":  [
+                  {
+                      "slug":  "asteroid-lane-break",
+                      "title":  "Asteroid Lane Break",
+                      "concept":  "3개 레인을 오가며 소행성 웨이브를 파괴해 콤보 점수를 쌓는 고속 레인 슈팅 아케이드.",
+                      "image":  "./assets/images/asteroid-lane-break.svg"
+                  },
+                  {
+                      "slug":  "blade-rail-strike",
+                      "title":  "Blade Rail Strike",
+                      "concept":  "레일 위를 질주하며 장애물을 넘고 적을 베어 무피격 배수를 키우는 액션 러너.",
+                      "image":  "./assets/images/blade-rail-strike.svg"
+                  },
+                  {
+                      "slug":  "clockwork-surge",
+                      "title":  "Clockwork Surge",
+                      "concept":  "회전 기어를 넘나들며 코어를 연속 점거해 점수를 폭발시키는 점프 액션 게임.",
+                      "image":  "./assets/images/clockwork-surge.svg"
+                  },
+                  {
+                      "slug":  "drone-sweep-zero",
+                      "title":  "Drone Sweep Zero",
+                      "concept":  "원형 아레나에서 몰려오는 드론을 쓸어 담아 웨이브 점수를 누적하는 탑다운 슈터.",
+                      "image":  "./assets/images/drone-sweep-zero.svg"
+                  },
+                  {
+                      "slug":  "ember-block-fall",
+                      "title":  "Ember Block Fall",
+                      "concept":  "떨어지는 블록을 빠르게 배치해 연속 라인 삭제로 고득점을 노리는 퍼즐 아케이드.",
+                      "image":  "./assets/images/ember-block-fall.svg"
+                  },
+                  {
+                      "slug":  "frost-bite-rush",
+                      "title":  "Frost Bite Rush",
+                      "concept":  "빙판 관성을 활용해 몬스터를 연쇄 격파하며 배수를 올리는 아레나 액션.",
+                      "image":  "./assets/images/frost-bite-rush.svg"
+                  },
+                  {
+                      "slug":  "gravity-hook-runner",
+                      "title":  "Gravity Hook Runner (MVP)",
+                      "concept":  "앵커 포인트를 타이밍 좋게 붙잡아 상승 거리를 경쟁하는 간소화 훅 액션 러너.",
+                      "image":  "./assets/images/gravity-hook-runner.svg"
+                  },
+                  {
+                      "slug":  "laser-miner-blast",
+                      "title":  "Laser Miner Blast",
+                      "concept":  "레이저로 광맥과 적을 동시에 돌파해 제한 에너지 안에서 최대 점수를 노리는 액션 채굴.",
+                      "image":  "./assets/images/laser-miner-blast.svg"
+                  },
+                  {
+                      "slug":  "lava-hop-legend",
+                      "title":  "Lava Hop Legend",
+                      "concept":  "솟아오르는 용암을 피해 사라지는 발판을 점프하며 최고 고도를 겨루는 생존 점프 게임.",
+                      "image":  "./assets/images/lava-hop-legend.svg"
+                  },
+                  {
+                      "slug":  "mecha-dash-raid",
+                      "title":  "Mecha Dash Raid (MVP)",
+                      "concept":  "2레일만 오가며 탄막을 피하고 약점 코어를 파괴해 점수를 올리는 경량 탄막 액션.",
+                      "image":  "./assets/images/mecha-dash-raid.svg"
+                  },
+                  {
+                      "slug":  "metro-zombie-sprint",
+                      "title":  "Metro Zombie Sprint",
+                      "concept":  "지하철 선로를 질주하며 회피와 처치를 반복해 거리 기반 점수를 올리는 하드코어 런너.",
+                      "image":  "./assets/images/metro-zombie-sprint.svg"
+                  },
+                  {
+                      "slug":  "neon-drift-dash",
+                      "title":  "Neon Drift Dash",
+                      "concept":  "차선을 바꾸며 장애물을 피하고 부스터 콤보를 이어 고득점을 노리는 네온 레이싱 아케이드.",
+                      "image":  "./assets/images/neon-drift-dash.svg"
+                  },
+                  {
+                      "slug":  "ninja-rope-chaos",
+                      "title":  "Ninja Rope Chaos (MVP)",
+                      "concept":  "고정 앵커 사이를 스윙 점프로 연결해 공중 처치 콤보를 쌓는 닌자 액션.",
+                      "image":  "./assets/images/ninja-rope-chaos.svg"
+                  },
+                  {
+                      "slug":  "orbit-smash",
+                      "title":  "Orbit Smash",
+                      "concept":  "코어를 공전하는 해머를 조작해 파편 웨이브를 막고 생존 점수를 겨루는 원버튼 게임.",
+                      "image":  "./assets/images/orbit-smash.svg"
+                  },
+                  {
+                      "slug":  "pinpoint-sniper-pop",
+                      "title":  "Pinpoint Sniper Pop",
+                      "concept":  "90초 동안 출현 타깃을 정확히 맞혀 명중 기반 점수를 쌓는 정밀 반응 사격 게임.",
+                      "image":  "./assets/images/pinpoint-sniper-pop.svg"
+                  },
+                  {
+                      "slug":  "pixel-pang-quest",
+                      "title":  "Pixel Pang Quest",
+                      "concept":  "분열 슬라임을 공략하며 스테이지를 빠르게 클리어해 점수를 겨루는 클래식 팡 액션.",
+                      "image":  "./assets/images/pixel-pang-quest.svg"
+                  },
+                  {
+                      "slug":  "rhythm-blade-slice",
+                      "title":  "Rhythm Blade Slice (MVP)",
+                      "concept":  "고정 BPM 트랙에서 3레인 노트를 판정해 점수를 경쟁하는 리듬 액션.",
+                      "image":  "./assets/images/rhythm-blade-slice.svg"
+                  },
+                  {
+                      "slug":  "shadow-dodge-arena",
+                      "title":  "Shadow Dodge Arena (MVP)",
+                      "concept":  "플레이어의 과거 8초 이동을 단순 복제한 그림자를 피하며 생존 점수를 올리는 아레나 게임.",
+                      "image":  "./assets/images/shadow-dodge-arena.svg"
+                  },
+                  {
+                      "slug":  "tower-bounce-breaker",
+                      "title":  "Tower Bounce Breaker",
+                      "concept":  "공의 반사각을 활용해 블록 타워를 연쇄 파괴하며 점수를 누적하는 브레이커 액션.",
+                      "image":  "./assets/images/tower-bounce-breaker.svg"
+                  },
+                  {
+                      "slug":  "vault-jump-fever",
+                      "title":  "Vault Jump Fever",
+                      "concept":  "트랩 방을 연속 점프로 돌파해 체크포인트와 남은 시간 점수를 확보하는 점프 챌린지.",
+                      "image":  "./assets/images/vault-jump-fever.svg"
+                  }
+              ]
+}

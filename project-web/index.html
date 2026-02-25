@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox Arcade Web Launcher</title>
+  <link rel="stylesheet" href="./assets/app.css">
+</head>
+<body data-page="index">
+  <header class="site-header">
+    <h1>Arcade Launcher</h1>
+    <p>`games` 문서에서 생성된 목록을 바로 플레이 페이지로 연결합니다.</p>
+  </header>
+
+  <main class="container">
+    <div class="toolbar">
+      <input id="searchInput" type="search" placeholder="게임 검색 (이름/슬러그)">
+      <span id="countLabel" class="muted"></span>
+    </div>
+    <section id="gameList" class="grid"></section>
+  </main>
+
+  <script type="module" src="./assets/index.js"></script>
+</body>
+</html>

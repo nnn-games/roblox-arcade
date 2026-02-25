@@ -1,0 +1,122 @@
+:root {
+  --bg: #0a0f1a;
+  --panel: #111b2f;
+  --panel-2: #192745;
+  --text: #e6f0ff;
+  --muted: #9fb2cf;
+  --line: #2b3f68;
+  --accent: #5de4c7;
+  --danger: #ff5d73;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Noto Sans KR", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(1200px 700px at 20% -10%, #17315f 0%, transparent 50%),
+    radial-gradient(900px 600px at 120% 0%, #1f2852 0%, transparent 40%),
+    var(--bg);
+}
+
+.site-header {
+  padding: 24px 20px 10px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.site-header h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+.site-header p { margin: 0; }
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 16px 20px 36px;
+}
+.muted { color: var(--muted); }
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+input[type="search"] {
+  width: 100%;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 11px 12px;
+}
+
+.grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+.card {
+  background: linear-gradient(180deg, var(--panel), var(--panel-2));
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  background: #0b1426;
+}
+.card-body { padding: 12px; }
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+.card p {
+  margin: 0 0 10px;
+  font-size: 13px;
+  min-height: 36px;
+}
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  color: #041016;
+  background: var(--accent);
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.back-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+}
+.play-wrap {
+  display: grid;
+  grid-template-columns: minmax(260px, 420px) 1fr;
+  gap: 16px;
+  align-items: start;
+}
+#gameCanvas {
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #050a13;
+}
+.play-meta {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+@media (max-width: 860px) {
+  .play-wrap {
+    grid-template-columns: 1fr;
+  }
+}
